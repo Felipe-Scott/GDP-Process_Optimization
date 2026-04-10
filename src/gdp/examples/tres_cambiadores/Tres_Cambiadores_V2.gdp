@@ -1,0 +1,10 @@
+% Simplified copy for Python execution
+VARIABLES POSITIVE
+    A1
+ENDVAR
+
+onl.. [Q2, Q3, A2, A3] = Modelo(A1, Prob);
+
+Bounds
+    A1 = 11;
+EndBounds
